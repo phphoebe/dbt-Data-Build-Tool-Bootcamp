@@ -18,3 +18,40 @@ Try running the following commands:
 ## [The Complete dbt (Data Build Tool) Bootcamp: Zero to Hero](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/) | Udemy
 
 Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
+
+## Theory
+* ETL & ELT
+* Data Warehouses, Data Lakes and Lakehouses 
+* The Modern Data Stack
+* Slow Changing Dimension (SCD)
+
+## Practice
+
+### 1 - dbt-core Setup 
+
+
+### 2 - Models 
+
+
+### 3 - Materializations
+
+
+### 4 - Seeds and Sources 
+
+
+### 5 - Snapshots
+
+
+### 6 - Tests
+
+
+### 7 - Macros, Custom Tests and Packages 
+
+
+### 8 - Documentation 
+
+
+### 9 - Analyses, Hooks and Exposures 
+
+
+### Debugging Tests and Testing with dbt-expectations
