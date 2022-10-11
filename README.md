@@ -27,31 +27,13 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 
 ## Practice
 
-### 1 - dbt-core Setup 
-
-
-### 2 - Models 
-
-
-### 3 - Materializations
-
-
-### 4 - Seeds and Sources 
-
-
-### 5 - Snapshots
-
-
-### 6 - Tests
-
-
-### 7 - Macros, Custom Tests and Packages 
-
-
-### 8 - Documentation 
-
-
-### 9 - Analyses, Hooks and Exposures 
-
-
-### Debugging Tests and Testing with dbt-expectations
+* dbt-core Setup
+* Models 
+* Materializations
+* Seeds and Sources 
+* Snapshots
+* Tests
+* Macros, Custom Tests and Packages 
+* Documentation 
+* Analyses, Hooks and Exposures 
+* Debugging Tests and Testing with dbt-expectations
