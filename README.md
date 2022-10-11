@@ -19,13 +19,13 @@ Try running the following commands:
 
 Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 
-## Theory
+## Part 1 - Theory
 * ETL & ELT
 * Data Warehouses, Data Lakes and Lakehouses 
 * The Modern Data Stack
 * Slow Changing Dimension (SCD)
 
-## Practice
+## Part 2 - Practice
 
 * dbt-core Setup
 * Models 
@@ -41,20 +41,27 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 ## Project Progress
 
 #### 1. dbt-core setup
-1. Install Python3 virtualen
-2. Create a virtualenv
-3. Activate virtualenv
-4. Install dbt-snowflake
 
+1. Install Python3 virtualen
+* `brew install virtualenv`
+2. Create a virtualenv
+* `virtualenv venv`
+3. Activate virtualenv
+* `. venv/bin/activate`
+4. Install dbt-snowflake
+* `pip install dbt-snowflake`
+* `which dbt` 
 
 
 #### 2. Staging Layer - Source Models created
+
 
 <img width="954" alt="image" src="https://user-images.githubusercontent.com/64668691/194973414-bbea6191-3b15-4cd7-8415-d0048983d28e.png">
 
 <img width="1441" alt="image" src="https://user-images.githubusercontent.com/64668691/194973649-a319528f-25f4-456a-af80-3c50ea86c807.png">
 
 #### 3. Core Layer - 2 Dim Models created
+
 
 <img width="989" alt="image" src="https://user-images.githubusercontent.com/64668691/194975779-51f0cc7a-b427-481c-9261-bb6d076b77c3.png">
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/64668691/194975883-0842c927-106c-4cda-b6f8-bc4d146ec29b.png">
