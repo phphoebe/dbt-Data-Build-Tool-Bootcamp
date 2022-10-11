@@ -40,16 +40,21 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 
 ## Project Progress
 
-* dbt-core setup
+#### dbt-core setup
+1. Install Python3 virtualen
+2. Create a virtualenv
+3. Activate virtualenv
+4. Install dbt-snowflake
 
 
-* Staging Layer - Source Models created
+
+#### Staging Layer - Source Models created
 
 <img width="954" alt="image" src="https://user-images.githubusercontent.com/64668691/194973414-bbea6191-3b15-4cd7-8415-d0048983d28e.png">
 
 <img width="1441" alt="image" src="https://user-images.githubusercontent.com/64668691/194973649-a319528f-25f4-456a-af80-3c50ea86c807.png">
 
-* Core Layer - 2 Dim Models created
+#### Core Layer - 2 Dim Models created
 
 <img width="989" alt="image" src="https://user-images.githubusercontent.com/64668691/194975779-51f0cc7a-b427-481c-9261-bb6d076b77c3.png">
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/64668691/194975883-0842c927-106c-4cda-b6f8-bc4d146ec29b.png">
