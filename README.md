@@ -1,19 +1,4 @@
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
-
+Happy Modeling! 
 
 ## [The Complete dbt (Data Build Tool) Bootcamp: Zero to Hero](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/) | Udemy
 
@@ -50,8 +35,17 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 * `. venv/bin/activate`
 4. Install dbt-snowflake
 * `pip install dbt-snowflake`
-* `which dbt` 
+* `which dbt` *- should be in your venv folder*
 
+Create a new dbt project:
+* `dbt init dbtlearn`
+
+| config | value |
+| --- | --- |
+| role (dev role) | transform |
+| warehouse | COMPUTE_WH |
+| database | airbnb |
+| schema | dev |
 
 #### 2. Staging Layer - Source Models created
 
