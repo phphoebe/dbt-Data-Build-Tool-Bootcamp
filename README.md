@@ -37,3 +37,8 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 * Documentation 
 * Analyses, Hooks and Exposures 
 * Debugging Tests and Testing with dbt-expectations
+
+<img width="954" alt="image" src="https://user-images.githubusercontent.com/64668691/194973414-bbea6191-3b15-4cd7-8415-d0048983d28e.png">
+
+<img width="1441" alt="image" src="https://user-images.githubusercontent.com/64668691/194973649-a319528f-25f4-456a-af80-3c50ea86c807.png">
+
