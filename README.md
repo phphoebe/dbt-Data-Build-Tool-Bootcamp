@@ -54,10 +54,28 @@ Create a new dbt project:
 
 <img width="1441" alt="image" src="https://user-images.githubusercontent.com/64668691/194973649-a319528f-25f4-456a-af80-3c50ea86c807.png">
 
-#### 3. Core Layer - 2 Dim Models created
 
+#### 3. Core Layer 
+
+##### 3.1 - Materialization 1 - `view` 
+
+* 2 `dim` Models created
 
 <img width="989" alt="image" src="https://user-images.githubusercontent.com/64668691/194975779-51f0cc7a-b427-481c-9261-bb6d076b77c3.png">
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/64668691/194975883-0842c927-106c-4cda-b6f8-bc4d146ec29b.png">
+
+##### 3.2 - Materialization 2 - `Table` / `Incremental` / `Ephemeral` 
+
+* Create `fact` models
+
+![image](https://user-images.githubusercontent.com/64668691/198157929-4824e833-bb48-4ad7-970e-afd1df30bbb6.png)
+![image](https://user-images.githubusercontent.com/64668691/198158033-a18dfaa6-8ffa-4ef3-bfaa-3f04f4c8a5ac.png)
+
+Updated Materialization:
+* `src` models - `ephemeral` (`CTEs`) 
+* `dim` models - `dim_listings_w_hosts`: `table`; the other `dim` models - `view` 
+* `fct` models - `incremental` (`table appends`) 
+
+![image](https://user-images.githubusercontent.com/64668691/198158601-ba43839b-c6a3-42eb-8672-e2c08da1bbe0.png)
 
 
