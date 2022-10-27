@@ -77,14 +77,16 @@ Updated Materialization:
 
 ![image](https://user-images.githubusercontent.com/64668691/198158601-ba43839b-c6a3-42eb-8672-e2c08da1bbe0.png)
 
-##### 3.3 - Materialization 3 - `Seeds` 
+#### 4 - `Seeds` and `Sources`
+
+##### 4.1 - `Seeds` 
 
 * Upload a CSV `seed` file to Snowflake by running `dbt seed` 
 * Create a mart model `mart_fullmoon_reviews`
 
 ![image](https://user-images.githubusercontent.com/64668691/198160788-0762c81b-d77c-4645-8cc6-52c541eecab1.png)
 
-##### 3.4 - Materialization 3 - `Sources` 
+##### 4.2 - `Sources` 
 
 * Add `sources.yml` file in the `models` folder
 * Implement the `source` function in the Staging layer `src` models 
