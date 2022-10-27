@@ -69,7 +69,6 @@ Create a new dbt project:
 * Create `fact` models
 
 ![image](https://user-images.githubusercontent.com/64668691/198157929-4824e833-bb48-4ad7-970e-afd1df30bbb6.png)
-![image](https://user-images.githubusercontent.com/64668691/198158033-a18dfaa6-8ffa-4ef3-bfaa-3f04f4c8a5ac.png)
 
 Updated Materialization:
 * `src` models - `ephemeral` (`CTEs`) 
@@ -78,4 +77,7 @@ Updated Materialization:
 
 ![image](https://user-images.githubusercontent.com/64668691/198158601-ba43839b-c6a3-42eb-8672-e2c08da1bbe0.png)
 
+##### 3.3 - Materialization 3 - `Seeds` 
+
+![image](https://user-images.githubusercontent.com/64668691/198160788-0762c81b-d77c-4645-8cc6-52c541eecab1.png)
 
