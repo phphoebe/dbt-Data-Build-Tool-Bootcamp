@@ -79,5 +79,7 @@ Updated Materialization:
 
 ##### 3.3 - Materialization 3 - `Seeds` 
 
+* Upload a CSV `seed` file to Snowflake by running `dbt seed` 
+* Create a mart model `mart_fullmoon_reviews`
 ![image](https://user-images.githubusercontent.com/64668691/198160788-0762c81b-d77c-4645-8cc6-52c541eecab1.png)
 
