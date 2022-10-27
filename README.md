@@ -84,3 +84,10 @@ Updated Materialization:
 
 ![image](https://user-images.githubusercontent.com/64668691/198160788-0762c81b-d77c-4645-8cc6-52c541eecab1.png)
 
+##### 3.4 - Materialization 3 - `Sources` 
+
+* Add `sources.yml` file in the `models` folder
+* Implement the `source` function in the Staging layer `src` models 
+* `dbt compile`
+
+![image](https://user-images.githubusercontent.com/64668691/198161767-3e29fb74-b983-4ccb-a126-78ba968c06e4.png)
