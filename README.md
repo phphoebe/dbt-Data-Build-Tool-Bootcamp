@@ -91,3 +91,8 @@ Updated Materialization:
 * `dbt compile`
 
 ![image](https://user-images.githubusercontent.com/64668691/198161767-3e29fb74-b983-4ccb-a126-78ba968c06e4.png)
+
+* Check source freshness by running `dbt source freshness`
+
+![image](https://user-images.githubusercontent.com/64668691/198162761-65356f31-8964-4c97-81d0-b6b36bbcf35a.png)
+
