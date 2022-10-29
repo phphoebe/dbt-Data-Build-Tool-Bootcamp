@@ -9,6 +9,11 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 * Data Warehouses, Data Lakes and Lakehouses 
 * The Modern Data Stack
 * Slowly Changing Dimension (SCD)
+  * Type 0 - Retain Original
+  * Type 1 - Overwrite
+  * Type 2 - Add New Row
+  * Type 3 - Add New Attribute
+  
 
 ## Part 2 - Practice
 
