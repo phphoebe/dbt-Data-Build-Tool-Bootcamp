@@ -130,6 +130,7 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
   * `relationships`
  
 * command: `dbt test`
+* `dbt test --help` - get docs of useful commands 
 
 ### 7 - `Macros`, `Custom Tests` and `Packages`
 
