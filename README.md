@@ -8,7 +8,7 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 * ETL & ELT
 * Data Warehouses, Data Lakes and Lakehouses 
 * The Modern Data Stack
-* Slow Changing Dimension (SCD)
+* Slowly Changing Dimension (SCD)
 
 ## Part 2 - Practice
 
