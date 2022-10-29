@@ -123,7 +123,7 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 
 * Singular 
   * `SQL Queries` stored in the `tests` folder - expected to return an empty result set
-* Generic 
+* Generic - *built-in tests in dbt:*
   * `unique`
   * `not_null`
   * `accepted_values`
