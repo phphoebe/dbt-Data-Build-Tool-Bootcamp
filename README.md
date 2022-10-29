@@ -103,3 +103,9 @@ Updated Materialization:
 
 ![image](https://user-images.githubusercontent.com/64668691/198162761-65356f31-8964-4c97-81d0-b6b36bbcf35a.png)
 
+
+#### 5 - `Snapshots` 
+
+![image](https://user-images.githubusercontent.com/64668691/198850312-713a25f5-7cbb-4d65-9f07-0b1a23ba751e.png)
+
+
