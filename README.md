@@ -121,7 +121,14 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 
 ### 6 - `Tests` 
 
-
+* Singular 
+  * SQL Queries stored in the `tests` folder - expected to return an empty result set
+* Generic 
+  * unique
+  * not_null
+  * accepted_values
+  * relationships
+ 
 
 ### 7 - `Macros`, `Custom Tests` and `Packages`
 
