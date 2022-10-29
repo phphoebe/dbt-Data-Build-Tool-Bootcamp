@@ -108,4 +108,9 @@ Updated Materialization:
 
 ![image](https://user-images.githubusercontent.com/64668691/198850312-713a25f5-7cbb-4d65-9f07-0b1a23ba751e.png)
 
+* command: `dbt snapshot` 
+
+![image](https://user-images.githubusercontent.com/64668691/198850924-c99e411e-39cb-48e6-a296-649d0fd69245.png)
+
+![image](https://user-images.githubusercontent.com/64668691/198850957-5af72001-6900-43e5-8865-82e2cd40c0a6.png)
 
