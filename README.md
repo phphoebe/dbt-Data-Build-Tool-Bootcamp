@@ -114,3 +114,8 @@ Updated Materialization:
 
 ![image](https://user-images.githubusercontent.com/64668691/198850957-5af72001-6900-43e5-8865-82e2cd40c0a6.png)
 
+Update 1 record in `raw_listings` and then re-execute `dbt snapshot` 
+
+![image](https://user-images.githubusercontent.com/64668691/198852940-d1ac0647-1a5e-433c-96d1-e2b80fb1ba57.png)
+
+
