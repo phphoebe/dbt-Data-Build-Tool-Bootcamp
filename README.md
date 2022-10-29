@@ -30,7 +30,7 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 
 ## Project Progress
 
-#### 1. dbt-core setup
+### 1. dbt-core setup
 
 1. Install Python3 virtualen
 * `brew install virtualenv`
@@ -52,7 +52,7 @@ Create a new dbt project:
 | database | airbnb |
 | schema | dev |
 
-#### 2. Staging Layer - Source Models created
+### 2. Staging Layer - Source Models created
 
 
 <img width="954" alt="image" src="https://user-images.githubusercontent.com/64668691/194973414-bbea6191-3b15-4cd7-8415-d0048983d28e.png">
@@ -60,16 +60,16 @@ Create a new dbt project:
 <img width="1441" alt="image" src="https://user-images.githubusercontent.com/64668691/194973649-a319528f-25f4-456a-af80-3c50ea86c807.png">
 
 
-#### 3. Core Layer 
+### 3. Core Layer 
 
-##### 3.1 - Materialization 1 - `view` 
+#### 3.1 - Materialization 1 - `view` 
 
-* 2 `dim` Models created
+* Two `dim` Models created
 
 <img width="989" alt="image" src="https://user-images.githubusercontent.com/64668691/194975779-51f0cc7a-b427-481c-9261-bb6d076b77c3.png">
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/64668691/194975883-0842c927-106c-4cda-b6f8-bc4d146ec29b.png">
 
-##### 3.2 - Materialization 2 - `Table` / `Incremental` / `Ephemeral` 
+#### 3.2 - Materialization 2 - `Table` / `Incremental` / `Ephemeral` 
 
 * Create `fact` models
 
@@ -82,16 +82,16 @@ Updated Materialization:
 
 ![image](https://user-images.githubusercontent.com/64668691/198158601-ba43839b-c6a3-42eb-8672-e2c08da1bbe0.png)
 
-#### 4 - `Seeds` and `Sources`
+### 4 - `Seeds` and `Sources`
 
-##### 4.1 - `Seeds` 
+#### 4.1 - `Seeds` 
 
 * Upload a CSV `seed` file to Snowflake by running `dbt seed` 
 * Create a mart model `mart_fullmoon_reviews`
 
 ![image](https://user-images.githubusercontent.com/64668691/198160788-0762c81b-d77c-4645-8cc6-52c541eecab1.png)
 
-##### 4.2 - `Sources` 
+#### 4.2 - `Sources` 
 
 * Add `sources.yml` file in the `models` folder
 * Implement the `source` function in the Staging layer `src` models 
@@ -104,7 +104,7 @@ Updated Materialization:
 ![image](https://user-images.githubusercontent.com/64668691/198162761-65356f31-8964-4c97-81d0-b6b36bbcf35a.png)
 
 
-#### 5 - `Snapshots` 
+### 5 - `Snapshots` 
 
 ![image](https://user-images.githubusercontent.com/64668691/198850312-713a25f5-7cbb-4d65-9f07-0b1a23ba751e.png)
 
@@ -119,3 +119,14 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 ![image](https://user-images.githubusercontent.com/64668691/198852940-d1ac0647-1a5e-433c-96d1-e2b80fb1ba57.png)
 
 
+### 6 - `Tests` 
+
+
+
+### 7 - `Macros`, `Custom Tests` and `Packages`
+
+
+### 8 - `Documentation`
+
+
+### 9 - `Analyses`, `Hooks` and `Exposures`
