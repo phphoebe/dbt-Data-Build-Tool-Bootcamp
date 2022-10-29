@@ -121,9 +121,9 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 
 ### 6 - `Tests` 
 
-* Singular 
+* **Singular** 
   * `SQL Queries` stored in the `tests` folder - expected to return an empty result set
-* Generic - *built-in tests in dbt:*
+* **Generic** - *built-in tests in dbt:*
   * `unique`
   * `not_null`
   * `accepted_values`
@@ -131,6 +131,10 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
  
 * command: `dbt test`
 * `dbt test --help` - get docs of useful commands 
+
+![image](https://user-images.githubusercontent.com/64668691/198854155-e10581ab-d7f4-403a-966d-76f7fc6a4d55.png)
+
+
 
 ### 7 - `Macros`, `Custom Tests` and `Packages`
 
