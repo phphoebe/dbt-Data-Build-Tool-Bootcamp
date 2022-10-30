@@ -155,8 +155,7 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 * Head to https://hub.getdbt.com/ to find the most commonly used packages
 * Practice installing `dbt_utils` 
 * command: `dbt deps` 
-
-![image](https://user-images.githubusercontent.com/64668691/198857158-ec1a2499-7667-4e4c-b264-776ba1a81239.png)
+* Use the `surrogate_key` function to generate a Primary Key for a table
 
 
 ### 8 - `Documentation`
