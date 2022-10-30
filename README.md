@@ -33,7 +33,7 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 
 # Project Progress
 
-### 1. dbt-core setup
+## 1. dbt-core setup
 
 1. Install Python3 virtualen
 * `brew install virtualenv`
@@ -55,7 +55,7 @@ Create a new dbt project:
 | database | airbnb |
 | schema | dev |
 
-### 2. Staging Layer - Source Models created
+## 2. Staging Layer - Source Models created
 
 
 <img width="954" alt="image" src="https://user-images.githubusercontent.com/64668691/194973414-bbea6191-3b15-4cd7-8415-d0048983d28e.png">
@@ -63,16 +63,16 @@ Create a new dbt project:
 <img width="1441" alt="image" src="https://user-images.githubusercontent.com/64668691/194973649-a319528f-25f4-456a-af80-3c50ea86c807.png">
 
 
-### 3. Core Layer 
+## 3. Core Layer 
 
-#### 3.1 - Materialization 1 - `view` 
+### 3.1 - Materialization 1 - `view` 
 
 * Two `dim` Models created
 
 <img width="989" alt="image" src="https://user-images.githubusercontent.com/64668691/194975779-51f0cc7a-b427-481c-9261-bb6d076b77c3.png">
 <img width="523" alt="image" src="https://user-images.githubusercontent.com/64668691/194975883-0842c927-106c-4cda-b6f8-bc4d146ec29b.png">
 
-#### 3.2 - Materialization 2 - `Table` / `Incremental` / `Ephemeral` 
+### 3.2 - Materialization 2 - `Table` / `Incremental` / `Ephemeral` 
 
 * Create `fact` models
 
@@ -85,16 +85,16 @@ Updated Materialization:
 
 ![image](https://user-images.githubusercontent.com/64668691/198158601-ba43839b-c6a3-42eb-8672-e2c08da1bbe0.png)
 
-### 4 - `Seeds` and `Sources`
+## 4 - `Seeds` and `Sources`
 
-#### 4.1 - `Seeds` 
+### 4.1 - `Seeds` 
 
 * Upload a CSV `seed` file to Snowflake by running `dbt seed` 
 * Create a mart model `mart_fullmoon_reviews`
 
 ![image](https://user-images.githubusercontent.com/64668691/198160788-0762c81b-d77c-4645-8cc6-52c541eecab1.png)
 
-#### 4.2 - `Sources` 
+### 4.2 - `Sources` 
 
 * Add `sources.yml` file in the `models` folder
 * Implement the `source` function in the Staging layer `src` models 
@@ -107,7 +107,7 @@ Updated Materialization:
 ![image](https://user-images.githubusercontent.com/64668691/198162761-65356f31-8964-4c97-81d0-b6b36bbcf35a.png)
 
 
-### 5 - `Snapshots` 
+## 5 - `Snapshots` 
 
 ![image](https://user-images.githubusercontent.com/64668691/198850312-713a25f5-7cbb-4d65-9f07-0b1a23ba751e.png)
 
@@ -122,7 +122,7 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 ![image](https://user-images.githubusercontent.com/64668691/198852940-d1ac0647-1a5e-433c-96d1-e2b80fb1ba57.png)
 
 
-### 6 - `Tests` 
+## 6 - `Tests` 
 
 * **Singular** 
   * `SQL Queries` stored in the `tests` folder - expected to return an empty result set
@@ -139,21 +139,22 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 
 
 
-### 7 - `Macros`, `Custom Tests` and `Packages`
+## 7 - `Macros`, `Custom Tests` and `Packages`
 
-#### 7.1 - Use Macros in tests
+### 7.1 - Use Macros in tests
 * Macro: `no_nulls_in_columns.sql` in the `macros` folder
 * Test: `no_nulls_in_dim_listings.sql` in the `tests` folder 
 * run `dbt test --select dim_listings_cleansed`
 
 
-#### 7.2 - Write Custom Generic Tests
+### 7.2 - Write Custom Generic Tests
+
 * Create the `positvie_value` Macro
 * Update the `schema` YMAL file to add in the `positive_value` test of the `minimum_nights` column
 * run `dbt test --select dim_listings_cleansed`
 
 
-#### 7.3 - Installing Third-Party Packages
+### 7.3 - Installing Third-Party Packages
 
 * Head to https://hub.getdbt.com/ to find the most commonly used packages
 * Practice installing `dbt_utils` 
@@ -172,13 +173,13 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 ![image](https://user-images.githubusercontent.com/64668691/198857495-c160fc34-c363-4d38-b3ea-e1d7c247eae6.png)
 
 
-### 8 - `Documentation`
+## 8 - `Documentation`
 
 Documentations in dbt can be defined in two ways:
 1. In ymal files (like `schema.yml`)
 2. In standalone Markdown files
 
-#### 8.1 - Writing and Exploring Basic Documentation
+### 8.1 - Writing and Exploring Basic Documentation
 
 * command: `dbt doc generate` 
 * run `dbt docs serve` get to -:
@@ -187,12 +188,12 @@ Documentations in dbt can be defined in two ways:
 
 <img width="1511" alt="image" src="https://user-images.githubusercontent.com/64668691/198859475-7a0d4844-0707-41ee-b905-e8f49b266254.png">
 
-#### 8.2 - Markdown-based Docs, Custom Overview Page and Assets
+### 8.2 - Markdown-based Docs, Custom Overview Page and Assets
 
 <img width="1133" alt="image" src="https://user-images.githubusercontent.com/64668691/198860439-a3c36a05-c60a-49b7-923e-328f6a75c420.png">
 
 
-#### 8.2 - The Lineage Graph (Data Flow DAG)
+### 8.3 - The Lineage Graph (Data Flow DAG)
 
 `Lineage Graph` 
 
@@ -200,9 +201,9 @@ Documentations in dbt can be defined in two ways:
 
 
 
-### 9 - `Analyses`, `Hooks` and `Exposures`
+## 9 - `Analyses`, `Hooks` and `Exposures`
 
-#### 9.1 - Analyses 
+### 9.1 - Analyses 
 
 Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 
@@ -210,7 +211,7 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 * get the compiled query by running `less target/compiled/dbtlearn/analyses/full_moon_no_sleep.sql` 
 * copy and paste compiled query in Snowfalke to run 
 
-#### 9.2 - Hooks
+### 9.2 - Hooks
 
 * SQLs that are executed at predefined times
 * Can be configured at the Project, subfolder, or Model level
@@ -220,14 +221,14 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
   * `pre-hook`
   * `post-hook` 
 
-#### 9.3 - Setting up a BI Dashboard in Snowflake and Preset
+### 9.3 - Setting up a BI Dashboard in Snowflake and Preset
 
-#### 9.4 - Exposures
+### 9.4 - Exposures
 
 
-### 10 - Debugging Tests and Testing with `dbt-expectations`
+## 10 - Debugging Tests and Testing with `dbt-expectations`
 
-#### 10.1 - Compare row counts between models
+### 10.1 - Compare row counts between models
 
 * Use the [expect_table_row_count_to_equal_other_table](https://github.com/calogica/dbt-expectations#expect_table_row_count_to_equal_other_table) function to create a test for the `dim_listings_w_hosts` model
 * command `dbt test --select dim_listings_w_hosts`
