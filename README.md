@@ -144,7 +144,7 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 * run `dbt test --select dim_listings_cleansed`
 
 
-#### 7.2 - Write Custom Generic Test
+#### 7.2 - Write Custom Generic Tests
 * Create `positvie_value` Macro
 * Update the `schema` YMAL file to add in the `positive_value` test of the `minimum_nights` column
 * run `dbt test --select dim_listings_cleansed`
