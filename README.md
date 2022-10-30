@@ -30,8 +30,6 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 * Analyses, Hooks and Exposures 
 * Debugging Tests and Testing with `dbt-expectations`
 
-![image](https://user-images.githubusercontent.com/64668691/198895225-d244f92d-dab6-4a2b-a08d-869c966dc91d.png)
-
 ![image](https://user-images.githubusercontent.com/64668691/198895242-e12c6ef1-ce10-4f91-9488-a139b827b8ae.png)
 
 
@@ -234,6 +232,9 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 ### 9.4 - Exposures
 
 <img width="1049" alt="image" src="https://user-images.githubusercontent.com/64668691/198900415-31baa03a-293f-46fe-b642-6cdeaf7a86f2.png">
+
+<img width="1623" alt="image" src="https://user-images.githubusercontent.com/64668691/198900691-8c8358e1-64fa-4698-85bb-a8fd40b1d7dc.png">
+
 
 ## 10 - Debugging Tests and Testing with `dbt-expectations`
 
