@@ -180,6 +180,11 @@ Documentations in dbt can be defined in two ways:
 
 <img width="1225" alt="image" src="https://user-images.githubusercontent.com/64668691/198859411-ad25a7cc-190d-4e63-809a-1e560dbf1e2d.png">
 
-* command: `dbt doc generate` 
+<img width="1511" alt="image" src="https://user-images.githubusercontent.com/64668691/198859475-7a0d4844-0707-41ee-b905-e8f49b266254.png">
+
+`Lineage Graph` 
+
+<img width="1384" alt="image" src="https://user-images.githubusercontent.com/64668691/198859517-e04446ec-cf62-4f38-b041-7f2955360f2e.png">
+
 
 ### 9 - `Analyses`, `Hooks` and `Exposures`
