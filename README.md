@@ -255,6 +255,9 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 ![image](https://user-images.githubusercontent.com/64668691/198896559-60b58554-9f0c-4253-bdf6-94b2e40bfa84.png)
 
 
-### 10.5 - Monitoring categorical variables in the source data
+### 10.5 - Monitoring categorical variables in the `source` data
+
+* Apply the [expect_column_distinct_count_to_equal](https://github.com/calogica/dbt-expectations#expect_column_distinct_count_to_equal) test to the `room_type` column in the raw `listings` table in source 
+* command: `dbt test --select source:airbnb.listings`
 
 ### 10.6 - Debugging `dbt tests` and Working with `regular expressions`
