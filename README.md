@@ -227,9 +227,9 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
   * `pre-hook`
   * `post-hook` 
 
-### 9.3 - Setting up a BI Dashboard in Snowflake and Preset
+### 9.3 - Setting up a BI Dashboard in Snowflake and Preset & Exposures
 
-### 9.4 - Exposures
+![image](https://user-images.githubusercontent.com/64668691/198895344-eb3c71ff-7142-4196-af36-b66c34ca609d.png)
 
 
 ## 10 - Debugging Tests and Testing with `dbt-expectations`
