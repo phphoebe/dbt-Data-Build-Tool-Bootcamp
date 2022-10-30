@@ -237,4 +237,5 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 ### 10.1 - Compare row counts between models
 
 * Use the [expect_table_row_count_to_equal_other_table](https://github.com/calogica/dbt-expectations#expect_table_row_count_to_equal_other_table) function to create a test for the `dim_listings_w_hosts` model
+* Use the [expect_column_quantile_values_to_be_between](https://github.com/calogica/dbt-expectations#expect_column_quantile_values_to_be_between) function to create a test that applies to the `price` column in the `dim_listings_w_hosts` model
 * command `dbt test --select dim_listings_w_hosts`
