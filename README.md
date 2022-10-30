@@ -261,3 +261,5 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 * command: `dbt test --select source:airbnb.listings`
 
 ### 10.6 - Debugging `dbt tests` and Working with `regular expressions`
+
+* Apply the [expect_column_values_to_match_regex](https://github.com/calogica/dbt-expectations#expect_column_values_to_match_regex) test to the `price` column in the raw `listings` table in source 
