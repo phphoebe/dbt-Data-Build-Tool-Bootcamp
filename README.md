@@ -155,7 +155,7 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 * Head to https://hub.getdbt.com/ to find the most commonly used packages
 * Practice installing `dbt_utils` 
 * command: `dbt deps` 
-* Use the `surrogate_key` function to generate a Primary Key for a table
+* Use the [surrogate_key](https://github.com/phphoebe/dbt-utils#surrogate_key-source) function to generate a Primary Key for a table
 
 
 ### 8 - `Documentation`
