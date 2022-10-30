@@ -238,4 +238,10 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 
 * Use the [expect_table_row_count_to_equal_other_table](https://github.com/calogica/dbt-expectations#expect_table_row_count_to_equal_other_table) function to create a test for the `dim_listings_w_hosts` model
 * Use the [expect_column_quantile_values_to_be_between](https://github.com/calogica/dbt-expectations#expect_column_quantile_values_to_be_between) function to create a test that applies to the `price` column in the `dim_listings_w_hosts` model
+* Apply the [expect_column_max_to_be_between](https://github.com/calogica/dbt-expectations#expect_column_max_to_be_between) test to the `price` column as well, and set it to be a `warn`, so the test won't fail:
+
+![image](https://user-images.githubusercontent.com/64668691/198896034-6ddd39b7-bf88-49b8-a9ca-1ef9b1f03602.png)
+
+
+
 * command `dbt test --select dim_listings_w_hosts`
