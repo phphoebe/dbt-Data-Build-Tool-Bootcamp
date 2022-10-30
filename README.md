@@ -193,7 +193,8 @@ Documentations in dbt can be defined in two ways:
 
 `Lineage Graph` 
 
-<img width="1384" alt="image" src="https://user-images.githubusercontent.com/64668691/198859517-e04446ec-cf62-4f38-b041-7f2955360f2e.png">
+<img width="1193" alt="image" src="https://user-images.githubusercontent.com/64668691/198860824-3f161e3c-4eb7-4b47-b390-ceddf68bcf3e.png">
+
 
 
 ### 9 - `Analyses`, `Hooks` and `Exposures`
