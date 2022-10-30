@@ -267,3 +267,4 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 To Debug: 
 * run `dbt debug`, or 
 * run the test itself `dbt test --select source:airbnb.listings`
+* find the compiled SQL file and check step-by-step in Snowflake 
