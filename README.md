@@ -201,7 +201,7 @@ Documentations in dbt can be defined in two ways:
 
 #### 9.1 - Analyses 
 
-Ad-hoc queries - the models will not be materialized anywhere
+Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 
 * command: `dbt compile`
 * get the compiled query by running `less target/compiled/dbtlearn/analyses/full_moon_no_sleep.sql` 
