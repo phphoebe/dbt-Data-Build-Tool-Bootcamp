@@ -231,6 +231,9 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 
 ![image](https://user-images.githubusercontent.com/64668691/198895344-eb3c71ff-7142-4196-af36-b66c34ca609d.png)
 
+### 9.4 - Exposures
+
+<img width="1027" alt="image" src="https://user-images.githubusercontent.com/64668691/198900265-b3197141-baa8-4d8f-ad22-716e335e3331.png">
 
 ## 10 - Debugging Tests and Testing with `dbt-expectations`
 
