@@ -198,3 +198,7 @@ Documentations in dbt can be defined in two ways:
 
 
 ### 9 - `Analyses`, `Hooks` and `Exposures`
+
+#### 9.1 - Analyses 
+
+Ad-hoc queries - the models will not be materialized anywhere
