@@ -202,3 +202,4 @@ Documentations in dbt can be defined in two ways:
 #### 9.1 - Analyses 
 
 Ad-hoc queries - the models will not be materialized anywhere
+command: `dbt compile`
