@@ -211,4 +211,4 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 
 SQLs that are executed at predefined times
 
-* can be configured 
+#### 9.3 - Setting up a BI Dashboard in Snowflake and Preset
