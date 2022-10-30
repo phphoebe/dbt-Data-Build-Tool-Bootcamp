@@ -162,6 +162,14 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 ```
 
 * Need a Full Refresh of the Incremental model by running: `dbt run --full-refresh --select fct_reviews`
+* Check in Snowflake - changes got applied: 
+
+![image](https://user-images.githubusercontent.com/64668691/198857472-4e1018f7-1578-400a-97c0-f6e4566f75e4.png)
+
+![image](https://user-images.githubusercontent.com/64668691/198857495-c160fc34-c363-4d38-b3ea-e1d7c247eae6.png)
+
+
+* Need a Full Refresh of the Incremental model by running: `dbt run --full-refresh --select fct_reviews`
 
 
 ### 8 - `Documentation`
