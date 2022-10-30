@@ -155,7 +155,13 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 * Head to https://hub.getdbt.com/ to find the most commonly used packages
 * Practice installing `dbt_utils` 
 * command: `dbt deps` 
-* Use the [surrogate_key](https://github.com/phphoebe/dbt-utils#surrogate_key-source) function to generate a Primary Key for a table
+* Use the [surrogate_key](https://github.com/phphoebe/dbt-utils#surrogate_key-source) function to generate a Primary Key (`review_id`) for a table (`fct_reviews`): 
+
+```
+{{ dbt_utils.surrogate_key(['listing_id', 'review_date', 'reviewer_name', 'review_text']) }} as review_id
+```
+
+* Need a Full Refresh of the Incremental model by running: `dbt run --full-refresh --select fct_reviews`
 
 
 ### 8 - `Documentation`
