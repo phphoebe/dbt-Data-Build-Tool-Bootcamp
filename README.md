@@ -1,10 +1,10 @@
 Happy Modeling! 
 
-## [The Complete dbt (Data Build Tool) Bootcamp: Zero to Hero](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/) | Udemy
+# [The Complete dbt (Data Build Tool) Bootcamp: Zero to Hero](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt/) | Udemy
 
 Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 
-## Part 1 - Theory
+# Part 1 - Theory
 * ETL & ELT
 * Data Warehouses, Data Lakes and Lakehouses 
 * The Modern Data Stack
@@ -15,7 +15,7 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
   * Type 3 - Add New Attribute
   
 
-## Part 2 - Practice
+# Part 2 - Practice
 
 * dbt-core Setup
 * Models 
@@ -28,7 +28,7 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 * Analyses, Hooks and Exposures 
 * Debugging Tests and Testing with dbt-expectations
 
-## Project Progress
+# Project Progress
 
 ### 1. dbt-core setup
 
@@ -206,3 +206,7 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 * command: `dbt compile`
 * get the compiled query by running `less target/compiled/dbtlearn/analyses/full_moon_no_sleep.sql` 
 * copy and paste compiled query in Snowfalke to run 
+
+#### 9.2 - Hooks
+
+SQLs that are executed at predefined times
