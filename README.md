@@ -175,12 +175,19 @@ Documentations in dbt can be defined in two ways:
 1. In ymal files (like `schema.yml`)
 2. In standalone Markdown files
 
+#### 8.1 - Writing and Exploring Basic Documentation
+
 * command: `dbt doc generate` 
 * run `dbt docs serve` get to -:
 
 <img width="1225" alt="image" src="https://user-images.githubusercontent.com/64668691/198859411-ad25a7cc-190d-4e63-809a-1e560dbf1e2d.png">
 
 <img width="1511" alt="image" src="https://user-images.githubusercontent.com/64668691/198859475-7a0d4844-0707-41ee-b905-e8f49b266254.png">
+
+#### 8.2 - Markdown-based Docs, Custom Overview Page and Assets
+
+
+#### 8.2 - The Lineage Graph (Data Flow DAG)
 
 `Lineage Graph` 
 
