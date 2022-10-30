@@ -145,11 +145,34 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 
 
 #### 7.2 - Write Custom Generic Tests
-* Create `positvie_value` Macro
+* Create the `positvie_value` Macro
 * Update the `schema` YMAL file to add in the `positive_value` test of the `minimum_nights` column
 * run `dbt test --select dim_listings_cleansed`
 
+
+#### 7.3 - Installing Third-Party Packages
+
+* Head to https://hub.getdbt.com/ to find the most commonly used packages
+* Practice installing `dbt_utils` 
+* command: `dbt deps` 
+* Use the [surrogate_key](https://github.com/phphoebe/dbt-utils#surrogate_key-source) function to generate a Primary Key (`review_id`) for a table (`fct_reviews`): 
+
+```
+{{ dbt_utils.surrogate_key(['listing_id', 'review_date', 'reviewer_name', 'review_text']) }} as review_id
+```
+
+* Need a Full Refresh of the Incremental model by running: `dbt run --full-refresh --select fct_reviews`
+* Check in Snowflake - changes got applied: 
+
+![image](https://user-images.githubusercontent.com/64668691/198857472-4e1018f7-1578-400a-97c0-f6e4566f75e4.png)
+
+![image](https://user-images.githubusercontent.com/64668691/198857495-c160fc34-c363-4d38-b3ea-e1d7c247eae6.png)
+
+
 ### 8 - `Documentation`
 
+Documentations in dbt can be defined in two ways:
+  * In ymal files (like `schema.yml`)
+  * In standalone Markdown files
 
 ### 9 - `Analyses`, `Hooks` and `Exposures`
