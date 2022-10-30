@@ -210,3 +210,5 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 #### 9.2 - Hooks
 
 SQLs that are executed at predefined times
+
+* can be configured 
