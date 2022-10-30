@@ -186,6 +186,8 @@ Documentations in dbt can be defined in two ways:
 
 #### 8.2 - Markdown-based Docs, Custom Overview Page and Assets
 
+<img width="1133" alt="image" src="https://user-images.githubusercontent.com/64668691/198860439-a3c36a05-c60a-49b7-923e-328f6a75c420.png">
+
 
 #### 8.2 - The Lineage Graph (Data Flow DAG)
 
