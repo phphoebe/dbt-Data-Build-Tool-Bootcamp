@@ -4,6 +4,8 @@ Happy Modeling!
 
 Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 
+<img width="921" alt="image" src="https://user-images.githubusercontent.com/64668691/198890938-e4ac3421-0d24-49f0-81b5-61e61561ff00.png">
+
 # Part 1 - Theory
 * ETL & ELT
 * Data Warehouses, Data Lakes and Lakehouses 
@@ -28,7 +30,11 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 * Analyses, Hooks and Exposures 
 * Debugging Tests and Testing with `dbt-expectations`
 
-<img width="921" alt="image" src="https://user-images.githubusercontent.com/64668691/198890938-e4ac3421-0d24-49f0-81b5-61e61561ff00.png">
+![image](https://user-images.githubusercontent.com/64668691/198895225-d244f92d-dab6-4a2b-a08d-869c966dc91d.png)
+
+![image](https://user-images.githubusercontent.com/64668691/198895242-e12c6ef1-ce10-4f91-9488-a139b827b8ae.png)
+
+
 
 
 # Project Progress
