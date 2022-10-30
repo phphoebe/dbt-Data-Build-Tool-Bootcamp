@@ -212,9 +212,9 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 * SQLs that are executed at predefined times
 * Can be configured at the Project, subfolder, or Model level
 * Types: 
-  1. `on_run_start` 
-  2. `on_the_run_end`
-  3. `pre-hook`
-  4. `post-hook` 
+  * `on_run_start` 
+  * `on_the_run_end`
+  * `pre-hook`
+  * `post-hook` 
 
 #### 9.3 - Setting up a BI Dashboard in Snowflake and Preset
