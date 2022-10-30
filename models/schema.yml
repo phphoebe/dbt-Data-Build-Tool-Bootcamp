@@ -37,15 +37,18 @@ models:
     columns:
 
       - name: host_id
+        description: The id of the host. This is the primary key.
         tests:
           - not_null
           - unique 
 
       - name: host_name 
+        description: The name of the host
         tests:
           - unique 
 
       - name: is_superhost
+        description: Defines whether the hosts is a superhost.
         tests: 
           - accepted_values:
               values: ['t', 'f']
