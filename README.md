@@ -237,11 +237,21 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 ### 10.1 - Compare row counts between models
 
 * Use the [expect_table_row_count_to_equal_other_table](https://github.com/calogica/dbt-expectations#expect_table_row_count_to_equal_other_table) function to create a test for the `dim_listings_w_hosts` model
+
+### 10.2 - Looking for outliers in your data
+
 * Use the [expect_column_quantile_values_to_be_between](https://github.com/calogica/dbt-expectations#expect_column_quantile_values_to_be_between) function to create a test that applies to the `price` column in the `dim_listings_w_hosts` model
+
+### 10.3 - Implementing test warnings for extreme items
+
 * Apply the [expect_column_max_to_be_between](https://github.com/calogica/dbt-expectations#expect_column_max_to_be_between) test to the `price` column as well, and set it to be a `warn`, so the test won't fail:
 
 ![image](https://user-images.githubusercontent.com/64668691/198896034-6ddd39b7-bf88-49b8-a9ca-1ef9b1f03602.png)
 
+![image](https://user-images.githubusercontent.com/64668691/198896145-76b9dff6-dae4-479b-953b-633a10d66000.png)
 
+### 10.4 - Validating Column Types
 
-* command `dbt test --select dim_listings_w_hosts`
+### 10.5 - Monitoring categorical variables in the source data
+
+### 10.6 - Debugging `dbt tests` and Working with `regular expressions`
