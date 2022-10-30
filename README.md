@@ -28,6 +28,9 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 * Analyses, Hooks and Exposures 
 * Debugging Tests and Testing with `dbt-expectations`
 
+<img width="921" alt="image" src="https://user-images.githubusercontent.com/64668691/198890938-e4ac3421-0d24-49f0-81b5-61e61561ff00.png">
+
+
 # Project Progress
 
 ### 1. dbt-core setup
