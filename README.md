@@ -248,9 +248,12 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 
 ![image](https://user-images.githubusercontent.com/64668691/198896034-6ddd39b7-bf88-49b8-a9ca-1ef9b1f03602.png)
 
-![image](https://user-images.githubusercontent.com/64668691/198896145-76b9dff6-dae4-479b-953b-633a10d66000.png)
-
 ### 10.4 - Validating Column Types
+
+* Apply the [expect_column_values_to_be_of_type](https://github.com/calogica/dbt-expectations#expect_column_values_to_be_of_type) test to the `price` column 
+
+![image](https://user-images.githubusercontent.com/64668691/198896559-60b58554-9f0c-4253-bdf6-94b2e40bfa84.png)
+
 
 ### 10.5 - Monitoring categorical variables in the source data
 
