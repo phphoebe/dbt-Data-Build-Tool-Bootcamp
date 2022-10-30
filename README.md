@@ -218,3 +218,5 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
   * `post-hook` 
 
 #### 9.3 - Setting up a BI Dashboard in Snowflake and Preset
+
+#### 9.4 - Exposures
