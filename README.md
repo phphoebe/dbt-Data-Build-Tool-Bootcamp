@@ -187,7 +187,7 @@ Documentations in dbt can be defined in two ways:
 
 ### 8.1 - Writing and Exploring Basic Documentation
 
-* command: `dbt doc generate` 
+* command: `dbt docs generate` 
 * run `dbt docs serve` get to -:
 
 <img width="1225" alt="image" src="https://user-images.githubusercontent.com/64668691/198859411-ad25a7cc-190d-4e63-809a-1e560dbf1e2d.png">
@@ -233,7 +233,7 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 
 ### 9.4 - Exposures
 
-<img width="1027" alt="image" src="https://user-images.githubusercontent.com/64668691/198900265-b3197141-baa8-4d8f-ad22-716e335e3331.png">
+<img width="1049" alt="image" src="https://user-images.githubusercontent.com/64668691/198900415-31baa03a-293f-46fe-b642-6cdeaf7a86f2.png">
 
 ## 10 - Debugging Tests and Testing with `dbt-expectations`
 
