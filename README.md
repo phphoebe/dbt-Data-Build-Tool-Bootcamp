@@ -152,7 +152,9 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 
 #### 7.3 - Installing Third-Party Packages
 
-Head to https://hub.getdbt.com/ to find the most commonly used packages
+* Head to https://hub.getdbt.com/ to find the most commonly used packages
+* Practice installing `dbt_utils` 
+* command: `dbt deps` 
 
 ### 8 - `Documentation`
 
