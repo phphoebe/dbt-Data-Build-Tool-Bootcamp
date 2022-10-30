@@ -169,10 +169,10 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 ![image](https://user-images.githubusercontent.com/64668691/198857495-c160fc34-c363-4d38-b3ea-e1d7c247eae6.png)
 
 
-* Need a Full Refresh of the Incremental model by running: `dbt run --full-refresh --select fct_reviews`
-
-
 ### 8 - `Documentation`
 
+Documentations in dbt can be defined in two ways:
+  * In ymal files (like `schema.yml`)
+  * In standalone Markdown files
 
 ### 9 - `Analyses`, `Hooks` and `Exposures`
