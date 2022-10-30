@@ -176,5 +176,10 @@ Documentations in dbt can be defined in two ways:
 2. In standalone Markdown files
 
 * command: `dbt doc generate` 
+* run `dbt docs serve` get to -:
+
+<img width="1225" alt="image" src="https://user-images.githubusercontent.com/64668691/198859411-ad25a7cc-190d-4e63-809a-1e560dbf1e2d.png">
+
+* command: `dbt doc generate` 
 
 ### 9 - `Analyses`, `Hooks` and `Exposures`
