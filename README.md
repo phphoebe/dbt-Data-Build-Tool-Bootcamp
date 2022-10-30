@@ -145,7 +145,9 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 ![image](https://user-images.githubusercontent.com/64668691/198856587-716a8dba-db02-4a89-8fe7-b165f276cfd8.png)
 
 
-
+#### 7.2 - Write Custom Generic Test
+* Create `positvie_value` Macro
+* Update the `schema` YMAL file to add in the `positive_value` test of the `minimum_nights` column
 
 ### 8 - `Documentation`
 
