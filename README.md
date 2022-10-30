@@ -26,7 +26,7 @@ Instructors: Zoltan C. Toth & Miklos (Mike) Petridisz
 * Macros, Custom Tests and Packages 
 * Documentation 
 * Analyses, Hooks and Exposures 
-* Debugging Tests and Testing with dbt-expectations
+* Debugging Tests and Testing with `dbt-expectations`
 
 # Project Progress
 
@@ -220,3 +220,11 @@ Version controlled Ad-hoc Queries - the models will not be materialized anywhere
 #### 9.3 - Setting up a BI Dashboard in Snowflake and Preset
 
 #### 9.4 - Exposures
+
+
+### 10 - Debugging Tests and Testing with `dbt-expectations`
+
+#### 10.1 - Compare row counts between models
+
+* Use the [expect_table_row_count_to_equal_other_table](https://github.com/calogica/dbt-expectations#expect_table_row_count_to_equal_other_table) function to create a test for the `dim_listings_w_hosts` model
+* command `dbt test --select dim_listings_w_hosts`
