@@ -156,6 +156,9 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 * Practice installing `dbt_utils` 
 * command: `dbt deps` 
 
+![image](https://user-images.githubusercontent.com/64668691/198857158-ec1a2499-7667-4e4c-b264-776ba1a81239.png)
+
+
 ### 8 - `Documentation`
 
 
