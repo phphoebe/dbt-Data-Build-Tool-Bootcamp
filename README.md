@@ -172,7 +172,9 @@ Update 1 record in `raw_listings` and then re-execute `dbt snapshot`
 ### 8 - `Documentation`
 
 Documentations in dbt can be defined in two ways:
-  * In ymal files (like `schema.yml`)
-  * In standalone Markdown files
+1. In ymal files (like `schema.yml`)
+2. In standalone Markdown files
+
+* command: `dbt doc generate` 
 
 ### 9 - `Analyses`, `Hooks` and `Exposures`
